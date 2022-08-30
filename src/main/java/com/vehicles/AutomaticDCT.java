@@ -8,4 +8,12 @@
 package com.vehicles;
 
 public class AutomaticDCT extends Transmission {
+    private double firstGearRatio;
+    private double secondGearRatio;
+    private double thirdGearRatio;
+    private double fourthGearRatio;
+    private double fifthGearRatio;
+    private double sixthGearRatio;
+    private double seventhGearRatio;
+    private double eightGearRatio;
 }
