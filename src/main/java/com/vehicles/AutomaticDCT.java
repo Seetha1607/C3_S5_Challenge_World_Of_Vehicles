@@ -28,4 +28,68 @@ public class AutomaticDCT extends Transmission {
         this.seventhGearRatio = 0.839;
         this.eightGearRatio = 0.667;
     }
+
+    public double getFirstGearRatio() {
+        return firstGearRatio;
+    }
+
+    public void setFirstGearRatio(double firstGearRatio) {
+        this.firstGearRatio = firstGearRatio;
+    }
+
+    public double getSecondGearRatio() {
+        return secondGearRatio;
+    }
+
+    public void setSecondGearRatio(double secondGearRatio) {
+        this.secondGearRatio = secondGearRatio;
+    }
+
+    public double getThirdGearRatio() {
+        return thirdGearRatio;
+    }
+
+    public void setThirdGearRatio(double thirdGearRatio) {
+        this.thirdGearRatio = thirdGearRatio;
+    }
+
+    public double getFourthGearRatio() {
+        return fourthGearRatio;
+    }
+
+    public void setFourthGearRatio(double fourthGearRatio) {
+        this.fourthGearRatio = fourthGearRatio;
+    }
+
+    public double getFifthGearRatio() {
+        return fifthGearRatio;
+    }
+
+    public void setFifthGearRatio(double fifthGearRatio) {
+        this.fifthGearRatio = fifthGearRatio;
+    }
+
+    public double getSixthGearRatio() {
+        return sixthGearRatio;
+    }
+
+    public void setSixthGearRatio(double sixthGearRatio) {
+        this.sixthGearRatio = sixthGearRatio;
+    }
+
+    public double getSeventhGearRatio() {
+        return seventhGearRatio;
+    }
+
+    public void setSeventhGearRatio(double seventhGearRatio) {
+        this.seventhGearRatio = seventhGearRatio;
+    }
+
+    public double getEightGearRatio() {
+        return eightGearRatio;
+    }
+
+    public void setEightGearRatio(double eightGearRatio) {
+        this.eightGearRatio = eightGearRatio;
+    }
 }
