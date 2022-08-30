@@ -21,4 +21,26 @@ public class Transmission {
 
     public Transmission() {
     }
+
+    public Transmission(String modelNumber,
+                        int forwardGears,
+                        float firstGearRatio,
+                        float secondGearRatio,
+                        float thirdGearRatio,
+                        float fourthGearRatio,
+                        float fifthGearRatio,
+                        float sixthGearRatio,
+                        float seventhGearRatio,
+                        float eightGearRatio) {
+        this.modelNumber = modelNumber;
+        this.forwardGears = forwardGears;
+        this.firstGearRatio = firstGearRatio;
+        this.secondGearRatio = secondGearRatio;
+        this.thirdGearRatio = thirdGearRatio;
+        this.fourthGearRatio = fourthGearRatio;
+        this.fifthGearRatio = fifthGearRatio;
+        this.sixthGearRatio = sixthGearRatio;
+        this.seventhGearRatio = seventhGearRatio;
+        this.eightGearRatio = eightGearRatio;
+    }
 }
