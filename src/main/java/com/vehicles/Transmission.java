@@ -8,4 +8,14 @@
 package com.vehicles;
 
 public class Transmission {
+    private String modelNumber;
+    private int forwardGears;
+    private float firstGearRatio;
+    private float secondGearRatio;
+    private float thirdGearRatio;
+    private float fourthGearRatio;
+    private float fifthGearRatio;
+    private float sixthGearRatio;
+    private float seventhGearRatio;
+    private float eightGearRatio;
 }
