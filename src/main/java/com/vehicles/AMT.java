@@ -12,6 +12,7 @@ public class AMT extends Transmission {
     double secondGearRatio;
     double thirdGearRatio;
     double fourthGearRatio;
+    double fifthGearRatio;
 
     public AMT(String modelNumber, int forwardGears, double firstGearRatio, double secondGearRatio, double thirdGearRatio, double fourthGearRatio) {
         super("AMTP4", 4);
