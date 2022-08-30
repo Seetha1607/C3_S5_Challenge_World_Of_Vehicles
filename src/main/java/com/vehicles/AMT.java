@@ -8,4 +8,9 @@
 package com.vehicles;
 
 public class AMT extends Transmission {
+    double firstGearRatio;
+    double secondGearRatio;
+    double thirdGearRatio;
+    double fourthGearRatio;
+
 }
