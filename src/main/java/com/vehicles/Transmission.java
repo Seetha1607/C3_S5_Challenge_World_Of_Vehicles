@@ -18,4 +18,7 @@ public class Transmission {
     private float sixthGearRatio;
     private float seventhGearRatio;
     private float eightGearRatio;
+
+    public Transmission() {
+    }
 }
