@@ -72,4 +72,18 @@ public class AutomaticCVT extends Transmission {
     public void setSixthGearRatio(double sixthGearRatio) {
         this.sixthGearRatio = sixthGearRatio;
     }
+
+    public void showSpecs() {
+        System.out.println("Transmission Type: " + getTransmissionType());
+        System.out.println("Transmission Model Number : " + getModelNumber());
+        System.out.println();
+        System.out.println("Key Specifications");
+        System.out.println("1. Forward Gears : " + getForwardGears());
+        System.out.println("2. 1st Gear Ratio : " + getFirstGearRatio());
+        System.out.println("3. 2nd Gear Ratio : " + getSecondGearRatio());
+        System.out.println("4. 3rd Gear Ratio : " + getThirdGearRatio());
+        System.out.println("5. 4th Gear Ratio : " + getFourthGearRatio());
+        System.out.println("6. 5th Gear Ratio : " + getFifthGearRatio());
+        System.out.println("7. 6th Gear Ratio : " + getSixthGearRatio());
+    }
 }
