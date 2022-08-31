@@ -8,10 +8,10 @@
 package com.vehicles;
 
 public class Manual extends Transmission {
-    private double firstGearRatio;
-    private double secondGearRatio;
-    private double thirdGearRatio;
-    private double fourthGearRatio;
+    private final double firstGearRatio;
+    private final double secondGearRatio;
+    private final double thirdGearRatio;
+    private final double fourthGearRatio;
     private double fifthGearRatio;
     private double sixthGearRatio;
 
@@ -46,49 +46,31 @@ public class Manual extends Transmission {
         return firstGearRatio;
     }
 
-    public void setFirstGearRatio(double firstGearRatio) {
-        this.firstGearRatio = firstGearRatio;
-    }
 
     public double getSecondGearRatio() {
         return secondGearRatio;
     }
 
-    public void setSecondGearRatio(double secondGearRatio) {
-        this.secondGearRatio = secondGearRatio;
-    }
 
     public double getThirdGearRatio() {
         return thirdGearRatio;
     }
 
-    public void setThirdGearRatio(double thirdGearRatio) {
-        this.thirdGearRatio = thirdGearRatio;
-    }
 
     public double getFourthGearRatio() {
         return fourthGearRatio;
     }
 
-    public void setFourthGearRatio(double fourthGearRatio) {
-        this.fourthGearRatio = fourthGearRatio;
-    }
 
     public double getFifthGearRatio() {
         return fifthGearRatio;
     }
 
-    public void setFifthGearRatio(double fifthGearRatio) {
-        this.fifthGearRatio = fifthGearRatio;
-    }
 
     public double getSixthGearRatio() {
         return sixthGearRatio;
     }
 
-    public void setSixthGearRatio(double sixthGearRatio) {
-        this.sixthGearRatio = sixthGearRatio;
-    }
 
     public void showSpecs() {
         System.out.println("Transmission Type: " + getTransmissionType());

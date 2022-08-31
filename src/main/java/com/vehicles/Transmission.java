@@ -8,12 +8,9 @@
 package com.vehicles;
 
 public class Transmission {
-    private String transmissionType;
-    private String modelNumber;
-    private int forwardGears;
-
-    public Transmission() {
-    }
+    private final String transmissionType;
+    private final String modelNumber;
+    private final int forwardGears;
 
     public Transmission(String transmissionType, String modelNumber, int forwardGears) {
         this.transmissionType = transmissionType;
@@ -25,25 +22,16 @@ public class Transmission {
         return transmissionType;
     }
 
-    public void setTransmissionType(String transmissionType) {
-        this.transmissionType = transmissionType;
-    }
 
     public String getModelNumber() {
         return modelNumber;
     }
 
-    public void setModelNumber(String modelNumber) {
-        this.modelNumber = modelNumber;
-    }
 
     public int getForwardGears() {
         return forwardGears;
     }
 
-    public void setForwardGears(int forwardGears) {
-        this.forwardGears = forwardGears;
-    }
 
     public void showSpecs() {
     }
